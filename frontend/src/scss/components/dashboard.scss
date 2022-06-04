@@ -1,0 +1,75 @@
+.dashboard {
+    border-top: 1px solid $clr7;
+    padding-top: 30px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.kpis,
+.doughnuts {
+    width: 100%;
+}
+
+.dashboard-header,
+.members,
+.task-count {
+    min-width: 300px;
+    height: 150px;
+    text-align: center;
+}
+
+.members {
+    font-size: 32px;
+    > h2 {
+        margin-bottom: 20px;
+    }
+}
+.high-kpi {
+    font-size: 36px;
+    color: #ec3390;
+}
+
+.done-kpi {
+    font-size: 36px;
+    color: #00c875;
+}
+
+.bar-tasks-per-member {
+    // width: 500px;
+    height: 500px;
+    transform: scale(0.9);
+}
+
+.border {
+    border: 2px solid gray;
+    padding: 20px;
+}
+
+.dash-header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.bar-tasks-per-group {
+    width: 500px;
+    height: 500px;
+    transform: scale(0.9);
+}
+
+.doughnut-tasks-per-status,
+doughnut-tasks-per-priority {
+    width: 300px;
+    //height:300px;
+    justify-content: space-between;
+}
+.bars,
+.doughnuts {
+    justify-content: center;
+    align-items: center;
+    flex-basis: fit-content;
+    gap: 90px;
+}
+
+.doughnuts {
+    margin: 30px 120px;
+}
