@@ -27,5 +27,8 @@ coverage
 *.sln
 *.sw?
 
+# data
+data
+
 # drafts
 guy-drafts
