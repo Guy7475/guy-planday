@@ -6,6 +6,7 @@
     "build": "vite build",
     "preview": "vite preview --port 5050",
     "start": "node-sass --watch -o src/styles src/scss"
+    
   },
   "dependencies": {
     "@element-plus/icons-vue": "^1.1.4",

@@ -149,7 +149,6 @@ export const boardStore = {
           isLoading: true,
         });
         const boards = await boardService.query();
-        console.log(boards)
         commit({
           type: 'setBoards',
           boards,

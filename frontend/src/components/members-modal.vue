@@ -84,7 +84,6 @@ export default {
     },
     addMember(memberToAdd) {
       this.$emit('addMember', this.task, memberToAdd)
-      console.log('member to add:', memberToAdd)
     },
     closeModal() {
       console.log('close')
